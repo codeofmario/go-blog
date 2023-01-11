@@ -13,6 +13,11 @@
 sudo docker-compose up -d
 ```
 
+### enable go modules
+```console
+export GO111MODULE="on"
+```
+
 ### build wire
 ```console
 go generate goblog.com/goblog/cmd/goblog
